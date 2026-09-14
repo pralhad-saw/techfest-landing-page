@@ -1217,3 +1217,33 @@ img {
     visibility: hidden;
   }
 }
+
+.social-rail {
+  position: fixed;
+  z-index: 80;
+  top: 50%;
+  right: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transform: translateY(-50%);
+}
+
+.social-rail a {
+  color: rgba(245, 240, 231, 0.65);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  transition: 180ms ease;
+}
+
+.social-rail a:hover {
+  color: var(--yellow);
+  transform: translateX(-4px);
+}
+
+@media (max-width: 650px) {
+  .social-rail {
+    display: none;
+  }
+}
