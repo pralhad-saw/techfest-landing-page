@@ -27,3 +27,25 @@ html {
   scroll-behavior: smooth;
 }
 
+
+body {
+  overflow-x: hidden;
+  color: var(--white);
+  background: var(--black);
+  font-family: var(--display);
+}
+
+body::selection {
+  color: var(--black);
+  background: var(--yellow);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
