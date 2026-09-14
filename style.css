@@ -1168,3 +1168,12 @@ img {
     transform: none;
   }
 }
+
+.hero-kicker {
+  margin-top: 24px;
+  color: var(--yellow);
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
