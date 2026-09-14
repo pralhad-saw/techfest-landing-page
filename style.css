@@ -1177,3 +1177,43 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.intro-loader {
+  position: fixed;
+  z-index: 2000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #08090c;
+  animation: hide-loader 1s 1.8s forwards;
+  pointer-events: none;
+}
+
+.loader-text {
+  color: var(--yellow);
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+}
+
+.loader-ring {
+  position: absolute;
+  width: 180px;
+  aspect-ratio: 1;
+  border: 1px solid var(--orange);
+  border-radius: 50%;
+  animation: loader-spin 1.8s linear infinite;
+}
+
+@keyframes loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hide-loader {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
