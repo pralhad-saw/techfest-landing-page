@@ -1,1 +1,17 @@
+:root {
+  --black: #08090c;
+  --black-soft: #101217;
+  --navy: #111c2c;
+  --navy-light: #1d3850;
+  --orange: #ff6338;
+  --orange-light: #ff8a58;
+  --yellow: #ffc857;
+  --blue: #70c8e8;
+  --white: #f5f0e7;
+  --muted: #9ba3ad;
+  --line: rgba(245, 240, 231, 0.18);
+  --line-dark: rgba(8, 9, 12, 0.2);
+  --display: "Space Grotesk", sans-serif;
+  --mono: "DM Mono", monospace;
+}
 
