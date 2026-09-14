@@ -1267,3 +1267,11 @@ img {
   background: #61e294;
   box-shadow: 0 0 12px #61e294;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
